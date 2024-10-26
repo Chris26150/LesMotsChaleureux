@@ -23,8 +23,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: black; /* Assurez-vous que cette couleur est bien appliquée */
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: darkgray; /* Couleur au survol, vous pouvez la personnaliser */
 }
 
 h1, h2 {
