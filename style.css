@@ -1,18 +1,64 @@
-<body>
-    <header>
-        <h1>Les Mots Chaleureux</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="actions.html">Nos Actions</a></li>
-            <li><a href="join.html">Rejoindre</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section>
-        <h2>Rejoindre notre association</h2>
-        <p>Si vous souhaitez devenir bénévole et aider à rédiger des cartes de vœux, contactez-nous pour plus d'informations.</p>
-    </section>
-</body>
+HTML CSSResult Skip Results Iframe
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6347; /* Couleur principale */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ff6347;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+Resources1× 0.5× 0.25×Rerun
