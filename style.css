@@ -62,7 +62,8 @@ footer {
     width: 100%;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.image-responsive {
+    width: 100%; /* Ajuste la largeur à 100% de son conteneur */
+    max-width: 500px; /* Limite la largeur à 500px */
+    height: auto; /* Maintient les proportions */
 }
